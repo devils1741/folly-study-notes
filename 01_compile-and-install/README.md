@@ -1,5 +1,6 @@
 ## 下载&编译
-建议下载2025年9月左右的版本
+建议下载2025年9月左右的版本。另外很多库下载很慢，如果是在虚拟机里进行的安装那么可以考虑开启代理软件的TUN模式。开启之后在虚拟机里ping一下google看看是否有数据，有的话说明生效了。
+编译时间极其漫长，需要耐心等待。
 
 ```bash
 git clone git@github.com:facebook/folly.git
@@ -12,3 +13,4 @@ python3 ./build/fbcode_builder/getdeps.py --allow-system-packages build --num-jo
 3. install-prefix:编译完成后的安装目录
 
 还有一些其它选项可以在[getdeps.py](https://github.com/facebook/folly/blob/main/build/fbcode_builder/getdeps.py)里查看函数parse_args
+
