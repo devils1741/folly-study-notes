@@ -16,4 +16,4 @@ python3 ./build/fbcode_builder/getdeps.py --allow-system-packages build --num-jo
 2. num-jobs:编译时的线程数量(但是实际感觉并没有明显加快编译速度)
 3. install-prefix:编译完成后的安装目录
 
-还有一些其它选项可以在getdeps.py里查看
+还有一些其它选项可以在[getdeps.py](https://github.com/facebook/folly/blob/main/build/fbcode_builder/getdeps.py)里查看
